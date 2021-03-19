@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-size: 18px;
+    font-weight:bold;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    max-width: auto;
+}
+ul,ol{
+    list-style: none;
+}
+.header-section{
+    position: sticky;
+    top: 0;
+    background-color: #F6F6F9;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.header-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding:10px;
+}
+.valyut{
+    display: flex;
+    margin: 0 10px;
+}
+.valyut-item{
+    display: flex;
+    justify-content: center;
+    margin: 0 8px;
+    color: #A9A9A9;
+}
+strong{
+    color: #295091;
+    margin: 0 5px;
+}
+.header-title{
+    color: #295091;
+    background-color: white;
+    border-radius: 5px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: none;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.search-icon{
+    margin: 0 auto;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border:none;
+background: #FFFFFF;
+border-radius: 5px; 
+}
+.flag-icon{
+    border-radius: 50%;
+    width: 20px;
+}
+.flag-name{
+    color: #535353;
+    margin-left: 3px;
+}
+.follow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35ACE0;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration:none;
+    color: white;
+}
+.follow:hover{
+    text-decoration: underline;
+}
+.follow-name{
+    margin-left: 4px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.nav-link{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: inherit;
+    flex-wrap: 800;
+    font-size: 20px;
+}
+.nav-link:hover{
+     color: blue;
+}
+.reklama{
+    width: 100%;
+}
+/* header qismi */
+.news-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #F6F6F9;
+    margin: 18px 0px;
+}
+.news-img{
+    width: 50px;
+    height: 50px;
+}
+.hr-news{
+    height: 3pxs;
+    border: none;
+    background-color: red;
+}
+.main{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-items{
+    margin-bottom: 20px;
+    width: 31%;
+}
+.time{
+    color: #B5B6CB;
+}
+.alert{
+    display: flex;
+    align-items: center;
+    background-color: #FCF3E0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.alert-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.alert-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    align-self: flex-end;
+    margin-left: auto;
+    padding: 13px;
+    background-color: #FF7C39;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.menyu-wrap{
+    display: flex;
+}
+.main-text{
+    color: #4d4d50;;
+}
+.menyu-img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.main-items-title-button{
+    display: block;
+    width: 170px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #295093;
+}
+.main-items-title-button:hover{
+    text-decoration: underline;
+}
+.box{
+    width: 450px;
+   margin-left: 18px; 
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+.calendar{
+    width:  15px;
+    height: 18px;
+}
+main .container{
+    display: flex;
+}
+.main-right-items{
+    background-color: #F6F6F9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hr-main{
+    width: 80%;
+    margin: 6px auto;
+    
+}
+.main-right-img{
+    height: 650px;
+    margin-top: 20px;
+}
+.main-right-text{
+    color: rgb(97, 91, 91);
+}
+.ads-bottom{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    overflow: hidden;
+    background-color: #F6F6F9;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.ads-bottom-img{
+    width: 20%;
+    object-fit: top;
+}
+.ads-bottom-title{
+    color: #295093;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.ads-bottom-link{
+    margin-left: 20px;
+}
+
+/* footer qismi */
+.footer{
+    background-color: #295093;
+}
+footer .footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    width: 20px;
+    height: 20px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+}
+.footer-tetle{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color: #133C82;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 10px;
+} 
+.footer-about{
+    font-family: Rubik;
+    color: white;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+margin-top: 10px;
+line-height: 17px;
+}   
+.link-follow{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color:#133C82 ;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 9px;
+}
+.link-follow:hover{
+    text-decoration: underline;
+}
+.hr-footer{
+    height:4px;
+    border: none;
+    background-color: #133C82;
+    margin: 10px 0px;
+}
+.about-we{
+    display: flex;
+    justify-content: space-between;
+}
+.about-text{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+width: 30%;
+
+color: #FFFFFF;
+}
+.about-items .about-link{
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-decoration: none;
+color: #FFFFFF;
+}
+.about-link:hover{
+    text-decoration: underline;
+}
